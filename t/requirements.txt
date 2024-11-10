@@ -8,6 +8,7 @@ arrow==1.3.0
 asttokens==2.4.1
 astunparse==1.6.3
 async-lru==2.0.4
+attorney @ ./attorney-2.0.0-py3-none-any.whl
 attrs==24.2.0
 babel==2.16.0
 backcall==0.2.0

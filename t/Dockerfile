@@ -5,7 +5,6 @@ WORKDIR /app
 # Install dependencies first to leverage caching
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install attorney-2.0.0-py3-none-any.whl
 
 # Copy all files from current directory
 COPY . .
